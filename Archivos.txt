@@ -1,0 +1,61 @@
+----------ARCHIVOS------------
+
+DURECCION DEL FLUJO DE DATOS    
+    (Entrada/Salida)
+
+TIPO DE ACCESO DE DATOS
+
+ESTRUCTURA DE LA INFORMACION
+
+------------------------------
+
+Ficheros de entrada --> Lectura (proveen datos al programa)
+
+Ficheros de salida --> Escritura (almacenan datos del programa)
+
+------------------------------
+
+Ficheros de texto ---> Unicamente un conjunto predefinido de caracteres imprimibles junto con el salto de linea
+
+Ficheros de bytes ---> Informacion.
+
+------------------------------
+
+C++ ve a cada archivo como un flujo secuencial de bytes.
+Se usa un "objeto apuntador" para recorrer el fichero.
+
+------------------------------
+
+Librería fstream (file-stream)
+
+nombre-objeto.open("nombre-fichero", modo, proteccion)
+nombre-objeto.fail()
+nombre-objeto.eof()   -->   (end of file)
+nombre-objeto.close()
+
+------------------------------
+
+ESTRUCTURA BÁSICA DE PROCESAMIENTO
+
+    (Archivos .txt --> Secuencial)
+
+<<  -----------> leer sobre variables de cualquier tipo básico
+get() ---------> leer caracteres de a una unidad o como un conjunto     |  El delimitador queda guardado en el buffer
+getline() -----> leer toda una línea completa hasta un salto de línea   |  Extrae el delimitador del flujo de entrada, pero no lo almacena en la cadena
+
+
+    (Archivos binarios --> Directo)
+
+nombre-objeto.read(&cadena, tamaño) 
+nombre-objeto.seekg(posicion)  --->  (seek get)
+nombre-objeto.seekg(off, posicion)
+nombre-objeto.seekp(posicion)  --->  (seek put)
+nombre-objeto.tellg()
+
+
+
+
+
+
+
+
