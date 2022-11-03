@@ -1,0 +1,22 @@
+un nodo se define con un struct
+
+struct Nodo {
+    int dato;
+        Nodo *proximoPtr;
+}
+
+
+int main(){
+    Nodo * lista = NULL;        //Crear lista vacía
+
+    lista = new Nodo;           //Crear el primer elemento (nodo)
+    lista->info = 8;
+    lista -> sig = NULL;
+}
+
+
+Nodo* b;
+b -> info;
+
+la flechita es como "b.info" pero para un puntero, o sea acceder al campo info
+pero no desde un nodo sino desde el puntero que apunta al nodo.

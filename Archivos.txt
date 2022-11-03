@@ -73,9 +73,11 @@ nombre-objeto.tellg()
 
 
 
-Depender de mí mismo, independizarme, lograr una "estabilidad" economica con la posibilidad de trabajar remoto.
+Lograr una estabilidad economica con la posibilidad de tener un trabajo remoto.
 
-Trabajar con tecnologías pero "saliendo" del trabajo de programador.
+-- Porq ing sist? --
+Tener la libertad de elegir entre un amplio abanico de actividades en la cual poder desarrollarme,
+incluso una vez recibido. Trabajar en la implementacion o mantenimiento tecnologias.
 
 
 
