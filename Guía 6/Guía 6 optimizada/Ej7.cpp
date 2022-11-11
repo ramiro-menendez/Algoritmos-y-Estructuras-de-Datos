@@ -14,9 +14,13 @@ int main() {
    gets(B);
 
    while(A[i] && anagrama) {
+    A[i]=tolower(A[i]);
+
     j=0;
     coincidencia=false;
     while(B[j] && !coincidencia) {
+        B[j]=tolower(B[j]);
+
         if(A[i]==B[j]) {
             B[j]='-';
             coincidencia=true;
